@@ -4,6 +4,14 @@
  * 
  * Chame sua função de soma_n_solucao */
 
-int soma_n_solucao(int n){
-	return n;
+long soma_n_solucao(int a){
+    int b = 0;
+    long c = 0;
+
+    while (b < a){
+        c += b;
+        b += 1;
+    }
+
+    return c;
 }
