@@ -4,7 +4,7 @@ long solucao_ex2(long *rdi, long rsi, long *rdx){
    if(*rdi > *rdx){
       rsi = 3*rsi;
    }else{
-      rdx += 1;
+      *rdx += 1;
    }
    *rdi = rsi + *rdx;
    return rax;
