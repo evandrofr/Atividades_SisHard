@@ -51,5 +51,6 @@ Point2D *point2D_scale(Point2D *p, double s) {
     double b=p->y*s;
 
     Point2D *p2 = point2D_new(a, b);
+    
     return p2;
 }
